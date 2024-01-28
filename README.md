@@ -1,6 +1,6 @@
 # BigST
 
-This is a pytorch implementation of SSH-GNN model as described in the following paper: [BigST: Linear Complexity Spatio-Temporal Graph Neural Network for Traffic Forecasting on Large-Scale Road Networks].
+This is a pytorch implementation of BigST model as described in the following paper: [BigST: Linear Complexity Spatio-Temporal Graph Neural Network for Traffic Forecasting on Large-Scale Road Networks].
 
 ### Create conda environment and install packages
 The implementation requires python 3.10.  
