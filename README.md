@@ -9,6 +9,9 @@ This is a refactored implementation of BigST model as described in the following
 Intel(R) Xeon(R) Gold 5220R CPU @ 2.20GHz
 NVIDIA A40 48GB
 
+## Datasets
+The California dataset is downloaded from the Caltrans Performance Measurement System ([PeMS](https://pems.dot.ca.gov/?dnode=Clearinghouse&type=station_5min&district_id=3&submit=Submit)) website, we use Station 5-Minute traffic data ranging from 2022-04-01 to 2022-06-31.
+
 ## Usage
 To preprocess the long historical traffic time series:
 
