@@ -22,3 +22,18 @@ If you want to conduct the model training and prediction process, you can use th
 python run_model.py
 ```
 
+## Citation
+If you find our work is useful for your research, please consider citing:
+
+```
+@article{hanbigst,
+  title={BigST: Linear Complexity Spatio-Temporal Graph Neural Network for Traffic Forecasting on Large-Scale Road Networks},
+  author={Han, Jindong and Zhang, Weijia and Liu, Hao and Tao, Tao and Tan, Naiqiang and Xiong, Hui},
+  journal={Proceedings of the VLDB Endowment},
+  volume={17},
+  number={5},
+  pages={1081--1090},
+  year={2024},
+  publisher={VLDB Endowment}
+}
+```
