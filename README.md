@@ -40,3 +40,7 @@ If you find our work is useful for your research, please consider citing:
   publisher={VLDB Endowment}
 }
 ```
+
+## Acknowledgement
+We thank the authors of the following repository for code reference:
+[Graph WaveNet](https://github.com/nnzhan/Graph-WaveNet), [BasicTS](https://github.com/zezhishao/BasicTS), [Nodeformer](https://github.com/qitianwu/NodeFormer), and [Performer](https://github.com/lucidrains/performer-pytorch).
