@@ -19,10 +19,16 @@ To preprocess the long historical traffic time series:
 python preprocess/preprocess.py
 ```
 
-If you want to conduct the model training and prediction process, you can use the following command:
+You can use the following command for model training:
 
 ```
-python run_model.py
+python run_model.py --use_residual --use_bn
+```
+
+If you want to use preprocessed features at training stage, please specify the "use_long" argument:
+
+```
+python run_model.py --use_residual --use_bn --use_long
 ```
 
 ## Citation
