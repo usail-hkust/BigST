@@ -10,7 +10,7 @@ Intel(R) Xeon(R) Gold 5220R CPU @ 2.20GHz
 NVIDIA A40 48GB
 
 ## Datasets
-The California dataset is downloaded from the Caltrans Performance Measurement System ([PeMS](https://pems.dot.ca.gov/?dnode=Clearinghouse&type=station_5min&district_id=3&submit=Submit)) website, we use Station 5-Minute traffic speed data ranging from 2022-04-01 to 2022-06-31. We provide the processed California [dataset link](https://drive.google.com/drive/folders/1BPo5GczJd6OENZp-VgFVQ-Oo-wqC9GPT?usp=drive_link) for public use.
+The California dataset is downloaded from the Caltrans Performance Measurement System ([PeMS](https://pems.dot.ca.gov/?dnode=Clearinghouse&type=station_5min&district_id=3&submit=Submit)) website, we use Station 5-Minute traffic speed data ranging from 2022-04-01 to 2022-06-31. We provide the processed California [dataset link](https://drive.google.com/file/d/1p75j3JqHMT00DpiBH7x7WAnJeX1njVxr/view?usp=sharing) for public use.
 The Beijing dataset is obtained from a commercial company, it cannot be made available to the public before we get a formal permission.
 
 ## Usage
