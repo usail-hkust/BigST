@@ -29,8 +29,9 @@ parser.add_argument('--use_spatial', action='store_true', help='use spatial loss
 parser.add_argument('--use_long', action='store_true', help='use long-term preprocessed features')
 parser.add_argument('--batch_size',type=int,default=16,help='batch size')
 parser.add_argument('--grad_clip',type=float,default=5,help='gradient cliip')
-parser.add_argument('--learning_rate',type=float,default=0.001,help='learning rate')
+parser.add_argument('--learning_rate',type=float,default=0.01,help='learning rate')
 parser.add_argument('--milestones',type=list,default=[30, 50],help='optimizer milestones')
+parser.add_argument('--patience',type=int,default=30,help='early stopping')
 parser.add_argument('--dropout',type=float,default=0.3,help='dropout rate')
 parser.add_argument('--weight_decay',type=float,default=0.0001,help='weight decay rate')
 parser.add_argument('--epochs',type=int,default=100,help='')
@@ -172,7 +173,7 @@ def main():
             best_state_dict = copy.deepcopy(trainer.model.state_dict())
         else:
             wait += 1
-            if wait >= 10:
+            if wait >= args.patience:
                 break
         
         log = 'Train Loss: {:.4f}, Train MAPE: {:.4f}, Train RMSE: {:.4f}, Valid MAE: {:.4f}, Valid MAPE: {:.4f}, Valid RMSE: {:.4f}'
